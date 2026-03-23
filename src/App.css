@@ -1,0 +1,60 @@
+.box, .box1 ,.box2 {
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  display: block;
+  justify-content: center;
+}
+.box1{
+  background: white;
+  border-radius: 12px;
+}
+.box2{
+  background-color: #2196f3;
+  color: black;
+  border-radius: 12px;
+}
+.box2 button{
+  background-color: white;
+  color: black;
+}
+h1 {
+  color: #ffffff;
+  border-bottom: 1px solid #333;
+  padding-bottom: 15px;
+}
+h2 {
+  color: #bbbbbb;
+  margin-top: 30px;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #222;
+  margin: 40px 0;
+}
+.highlight {
+  color: #2196f3; 
+}
+button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+button:hover {
+  opacity: 0.8;
+}
+input {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  outline: none;
+}
+input:focus {
+  border-color: #2196f3;
+}
